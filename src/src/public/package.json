@@ -1,0 +1,36 @@
+{
+  "name": "finance-tracker",
+  "version": "1.0.0",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "browserslist": {
+    "production": [">0.2%", "not dead"],
+    "development": ["last 1 chrome version"]
+  }
+}
+```
+
+---
+
+### PART 3: Deploy on Vercel
+
+**Step 8** — Go to [vercel.com](https://vercel.com) → click **"Sign Up"** → choose **"Continue with GitHub"** (this links both accounts automatically)
+
+**Step 9** — Click **"Add New Project"**
+
+**Step 10** — You'll see your `finance-tracker` repo listed → click **"Import"**
+
+**Step 11** — Vercel auto-detects it as a React app. Don't change any settings → just click **"Deploy"**
+
+**Step 12** — Wait ~60 seconds ⏳ — Vercel builds and deploys it automatically
+
+**Step 13** — You'll see a success screen with a link like:
+```
+https://finance-tracker-yourname.vercel.app
